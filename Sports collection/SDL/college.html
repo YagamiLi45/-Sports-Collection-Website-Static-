@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>College Admission</title>
+    <style>
+        label {
+            Display: inline-block;
+            font-weight: bold;
+            bottom-margin: 20px;
+            width: 120px;
+        }
+
+
+        input[type="text"],
+        select,
+        input[type="number"] {
+            border-radius: 5px;
+            width: 200px;
+            padding: 10px;
+            bottom-margin: 20px;
+            box-sizing: border-box;
+        }
+
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+
+
+</head>
+
+
+
+
+<body>
+    <h2>College Details</h2>
+    <form method="POST" action="college_details.php">
+        <div class="frm">
+
+
+            <label>PRN Number : </label>
+            <input type="text" id="prn" name="prn"><br>
+
+
+            <label>First Name : </label>
+            <input type="text" id="fname" name="fname"><br>
+
+
+            <label>Last Name</label>
+            <input type="text" id="lname" name="lname"><br>
+
+
+            <label>Address : </label>
+            <input type="text" id="address" name="address"><br>
+
+
+            <label>Mobile No : </label>
+            <input type="text" id="number" name="number"><br>
+
+
+            <label>Fees : </label>
+            <select type="text" id="fee" name="fee">
+                <option id="paid">Paid</option>
+                <option id="unpaid">unpaid</option>
+            </select>
+            <br>
+
+
+            <input type="submit" id="submit">
+
+
+    </form>
+
+
+    </div>
+</body>
+
+
+</html>

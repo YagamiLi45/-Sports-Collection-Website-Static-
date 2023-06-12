@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Adds a light gray background color */
+    background-color: #f2f2f2;
+    /* Rounds the corners of the container */
+    border-radius: 5px;
+    /* Adds a subtle box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Centers the heading text and adds a bottom margin */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Styles the form element containers */
+form {
+    /* Makes the form element containers wrap to the next line when there isn't enough space */
+    flex-wrap: wrap;
+    /* Sets the space between the form element containers */
+    justify-content: space-between;
+}
+
+
+/* Styles the labels for form elements */
+label {
+    display: block;
+    /* Adds a small margin below the label */
+    margin-bottom: 5px;
+}
+
+
+/* Styles the form elements */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+button {
+    /* Sets the width of the form elements to 100% */
+    width: 100%;
+    /* Adds a small margin below the form elements */
+    margin-bottom: 10px;
+    /* Sets the padding of the form elements */
+    padding: 10px;
+    /* Sets the font size of the form elements */
+    font-size: 16px;
+    /* Rounds the corners of the form elements */
+    border-radius: 5px;
+    /* Removes the border around the form elements */
+    border: none;
+    /* Adds a subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styles the select element */
+select {
+    /* Sets the height of the select element */
+    height: 40px;
+}
+
+
+/* Styles the submit button */
+button[type="submit"] {
+    /* Sets the background color of the button */
+    background-color: #4CAF50;
+    /* Sets the text color of the button */
+    color: white;
+    /* Changes the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+    /* Adds a transition effect when the background color of the button changes */
+    transition: background-color 0.2s ease;
+}
+
+
+/* Styles the submit button when hovering over it */
+button[type="submit"]:hover {
+    /* Changes the background color of the button */
+    background-color: #3e8e41;
+}
+
+
